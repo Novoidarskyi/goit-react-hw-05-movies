@@ -21,7 +21,7 @@ function getFilmById(id) {
 function getFilmsByQuery(query) {
   return axios({
     method: 'GET',
-    url: `search/movie?api_key=${API_KEY}query=${query}`,
+    url: `/search/movie?api_key=${API_KEY}&query=${query}`,
   });
 }
 
