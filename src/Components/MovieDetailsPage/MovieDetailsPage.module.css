@@ -1,4 +1,4 @@
-.Navigation {
+.blokFilm {
   display: flex;
   align-items: center;
   min-height: 50px;
@@ -6,7 +6,19 @@
   padding-right: 30px;
   border-bottom: 1px solid #ccc;
 }
-
+.img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+}
+.details {
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.button {
+  margin: 10px;
+}
 .NavLink {
   margin: 10px;
   color: darkblue;

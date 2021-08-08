@@ -1,4 +1,4 @@
-.Navigation {
+.foto {
   display: flex;
   align-items: center;
   min-height: 50px;
@@ -6,11 +6,10 @@
   padding-right: 30px;
   border-bottom: 1px solid #ccc;
 }
-
-.NavLink {
-  margin: 10px;
-  color: darkblue;
+.img {
+  width: 100px;
 }
-.NavLinkActive {
-  color: brown;
+.item {
+  display: block;
+  margin: 20px;
 }
